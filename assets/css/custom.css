@@ -68,6 +68,11 @@ p {
     height: 40px;
     border-radius: 50px;
 }
+.img_block img {
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+}
 .padding_sub {
     padding: 50px;
 }
@@ -234,7 +239,7 @@ header.header.sticky-bar div#navbarSupportedContent::before {
 /* header end  */
 /* home banner start  */
 section.banner_home {
-    background-image: url(../images/home_banner.png);
+
     background-size: cover;
     background-repeat: no-repeat;
     height: 575px;
@@ -327,17 +332,17 @@ i.arrow_left{
     transform: rotate(135deg);
 }
 .slick-prev:before {
-    content: 'â†’';
+    content: 'ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢';
     visibility: hidden;
 }
 .slick-next:before {
-    content: 'â†’';
+    content: 'ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢';
     visibility: hidden;
 }
 
 
 /* .slick-next:before {
-    content: 'â†’';
+    content: 'ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢';
     background-image: url(../images/arrow-right.png);
     background-repeat: no-repeat;
     position: absolute;
@@ -348,7 +353,7 @@ i.arrow_left{
     opacity: 1;
 } */
 /* .slick-prev:before {
-    content: 'â†’';
+    content: 'ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢';
     background-image: url(../images/prev.png);
     background-repeat: no-repeat;
     position: absolute;
@@ -558,8 +563,9 @@ a.go_backbtn {
 
 }
 .banner-slider .slider.slider-for {
-    max-width: 84%;
-    padding-right: 35px;
+    width: 80%;
+    padding-right: 0;
+    margin-right: 0;
 }
 .banner-slider .slider.slider-nav {
     max-width: 16%;
@@ -677,6 +683,7 @@ i.fa.fa-whatsapp {
 }
 #product_slider .banner-slider .slider.slider-nav {
     height: 499px;
+    width: 20%;
 }
 .thankyou-text {
     margin-top: 9px;
@@ -763,20 +770,18 @@ ul.opportunity_list li {
     margin-bottom: 17px;
 }
 /* table start  */
-th {
+.opportunlty th {
     width: 60%;
     background: #F2F2F2;
     font-size: 18px;
     font-weight: 500;
 }
-td{
+.opportunlty td{
     width: 20%;
     font-size: 18px;
 }
-.table td, .table th {
-   
-}
-.table td, .table th {
+
+.opportunlty .table td, .opportunlty .table th {
     padding: 0.75rem;
     vertical-align: top;
     background: #F2F2F2;
@@ -801,7 +806,7 @@ td.td_opportunity {
     text-align: center;
     margin-bottom: 39px;
 }
-th.price_the {
+section.opportunlty th.price_the {
     width: 50%;
 }
 
@@ -898,4 +903,17 @@ section.opportunlty {
 }
 .btn_wrapp:hover {
     background: #214378;
+}
+.img_opportunity img {
+    min-height: 345px;
+    max-height: 345px;
+    object-fit: cover;
+    object-position: center;
+}
+thead.financial_table {
+    background: #1B3A6A;
+    color: white;
+}
+th.table_text p {
+    color: white;
 }
