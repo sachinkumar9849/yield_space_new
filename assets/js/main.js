@@ -17,6 +17,17 @@ $('.slider-nav').slick({
     dots: false,
     focusOnSelect: true,
     verticalSwiping:true,
+    responsive: [{
+        breakpoint: 1200,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+        }
+    }
+
+]
 
   
 });

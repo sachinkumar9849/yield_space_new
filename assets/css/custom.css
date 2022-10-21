@@ -760,6 +760,9 @@ a.btn_img:hover {
   .login_box {
     width: 544px;
 }
+.modal_login {
+    width: 544px;
+}
 .border_right {
     border-left: 1px solid #1B3A6A;
 }
@@ -796,6 +799,8 @@ th.th_width_opportunity {
 td.td_opportunity {
     width: 70%;
 }
+
+
 
 /* table end  */
 .opportunity_item img {
@@ -916,4 +921,11 @@ thead.financial_table {
 }
 th.table_text p {
     color: white;
+}
+/* .width_th {
+    min-width: 300px;
+} */
+.property_text h4 {
+    font-size: 18px;
+    font-weight: bold;
 }
